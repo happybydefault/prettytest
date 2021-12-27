@@ -54,7 +54,9 @@ func (p *prettifier) Write(data []byte) (int, error) {
 		}
 
 		line = pretty(line)
-		fmt.Print(line)
+		if _, err := os.Stdout.WriteString(line); err != nil {
+			return 0, err
+		}
 	}
 
 	return len(data), nil
