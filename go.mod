@@ -1,4 +1,4 @@
-module scenario
+module prettytest
 
 go 1.17
 
