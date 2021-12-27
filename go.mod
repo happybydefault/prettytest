@@ -1,4 +1,4 @@
-module prettytest
+module github.com/happybydefault/prettytest
 
 go 1.17
 
