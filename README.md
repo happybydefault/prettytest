@@ -1,6 +1,6 @@
 # prettytest
 
-`prettytest` is an extremely simple Golang program (~80 LOC) to have pretty, colored output for Go tests. It takes the
+prettytest is an extremely simple Golang program (~80 LOC) to have pretty, colored output for Go tests. It takes the
 exact same arguments as `go test`, as it's just a wrapper that calls your local `go` binary.
 
 For example, `prettytest ./... -v` is equivalent to `go test ./... -v`.
